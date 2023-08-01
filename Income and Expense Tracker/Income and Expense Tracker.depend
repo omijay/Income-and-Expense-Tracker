@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1690881828 source:c:\users\omila jayawardhane\onedrive\documents\github\income-and-expense-tracker\income and expense tracker\main.c
+	<stdio.h>
+	<string.h>
+
