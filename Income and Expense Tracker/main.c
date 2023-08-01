@@ -13,3 +13,10 @@ void addTransaction(Transaction *transactions, int *transactionCount, char *desc
     transactions[*transactionCount] = newTransaction;
     (*transactionCount)++;
 }
+float calculateTotal(Transaction *transactions, int transactionCount) {
+    float total = 0.0;
+    for (int i = 0; i < transactionCount; i++) {
+        total += transactions[i].amount;
+    }
+    return total;
+}
